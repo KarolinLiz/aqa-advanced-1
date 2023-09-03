@@ -8,9 +8,9 @@ console.log(age);
 let istrue = true;
 console.log(istrue);
 //null
-let catsDogs = null;
+const catsDogs = null;
 console.log(catsDogs);
 
 //underfined
-let mySecondName;
+const mySecondName;
 console.log(mySecondName);
