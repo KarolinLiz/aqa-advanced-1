@@ -1,8 +1,8 @@
-function counter(num){
+function countToZero(num){
     console.log(num)
-    if (num<=0 ){
+    if (num<=1 ){
         return 
     }
-    counter(num-1)
+    countToZero(num-1)
 }
-counter(5)
+countToZero(5)

@@ -1,9 +1,7 @@
-function validate(age) {
-    if(age>=18){
-        console.log("Is the person adult? = true")
-        return
+function identifyAdult(age) {
+       result = age>=18
+        return result
     }
-    console.log("Is the person adult? = false")
-}
-validate(25)
-validate(15)
+    
+console.log(identifyAdult(25))
+console.log(identifyAdult(15))
